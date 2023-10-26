@@ -1,0 +1,52 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #f1eff0, #1673ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .nav-link{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+  }
+
+  #image{
+    border-radius: 50%;
+  }
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  body{
+    font-family: "Ubuntu";
+  }
+
+
+  
+  .rotate {
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+    0%{
+      transform: rotate(0deg);
+     }
+  100%{
+      transform: rotate(360deg);
+     }
+  }
